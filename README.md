@@ -1,28 +1,26 @@
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+这是基于 Next.js 官方脚手架 create-next-app 搭建的项目示例仓库。
 
-## Getting Started
+## 快速开始
 
-First, run the development server:
-
+本地启动开发服务：
 ```bash
 npm run dev
-# or
+# 或
 yarn dev
-# or
+# 或
 pnpm dev
-# or
+# 或
 bun dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
-Learn More
-To learn more about Next.js, take a look at the following resources:
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.Check out our Next.js deployment documentation for more details.
-More Next.js Code Snippets & Tutorials: https://getfromcode.com All code free for personal & commercial use.
+浏览器访问 http://localhost:3000 即可预览项目，可直接修改 app/page.tsx 进行开发，保存自动刷新。项目内置字体优化方案，默认采用 Geist 开源字体。
 
+## 学习更多 Next.js
+如果你想系统学习 Next.js 入门、组件开发、路由布局、接口请求等实战教程，可以参考官方文档和实战案例。
+
+## 部署上线
+Next.js 项目推荐直接部署到 Vercel 平台，一键部署、自动托管，无需额外配置服务器。
+
+更多 Next.js 中文实战教程、组件源码和前端开发干货：https://getfromcode.com 所有源码均可免费学习和商用。
  
