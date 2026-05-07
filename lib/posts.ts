@@ -27,7 +27,13 @@ export function getPostBySlug(
   const raw = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(raw);
   const title = data.title as string | undefined;
-  const date = data.date as string | undefined;
+  const dateRaw = data.date;
+  const date =
+    dateRaw instanceof Date
+      ? dateRaw.toISOString().slice(0, 10)
+      : typeof dateRaw === "string"
+        ? dateRaw
+        : undefined;
   if (!title || !date) return null;
   return {
     meta: {
